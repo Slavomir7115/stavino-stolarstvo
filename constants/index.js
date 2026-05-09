@@ -1,0 +1,33 @@
+export const GALLERY_IMAGES = [
+  { id: 1, src: "/gallery/galeria1.jpg", title: "Realizácia" },
+  { id: 2, src: "/gallery/galeria2.jpg", title: "Realizácia" },
+  { id: 4, src: "/gallery/galeria4.jpg", title: "Realizácia" },
+  { id: 5, src: "/gallery/galeria5.jpg", title: "Realizácia" },
+  { id: 6, src: "/gallery/galeria6.jpg", title: "Realizácia" },
+  { id: 7, src: "/gallery/galeria7.jpg", title: "Realizácia" },
+  { id: 8, src: "/gallery/galeria8.jpg", title: "Realizácia" },
+  { id: 10, src: "/gallery/galeria10.jpg", title: "Realizácia" },
+  { id: 11, src: "/gallery/galeria11.jpg", title: "Realizácia" },
+  { id: 12, src: "/gallery/galeria12.jpg", title: "Realizácia" },
+  { id: 13, src: "/gallery/galeria13.jpg", title: "Realizácia" },
+  { id: 14, src: "/gallery/galeria14.jpg", title: "Realizácia" },
+  { id: 15, src: "/gallery/galeria15.jpg", title: "Realizácia" },
+  { id: 16, src: "/gallery/galeria16.jpg", title: "Realizácia" },
+  { id: 17, src: "/gallery/galeria17.jpg", title: "Realizácia" },
+  { id: 18, src: "/gallery/galeria18.jpg", title: "Realizácia" },
+  { id: 19, src: "/gallery/galeria19.jpg", title: "Realizácia" },
+  { id: 20, src: "/gallery/galeria20.jpg", title: "Realizácia" },
+  { id: 21, src: "/gallery/galeria21.jpg", title: "Realizácia" },
+  { id: 22, src: "/gallery/galeria22.jpg", title: "Realizácia" },
+  { id: 23, src: "/gallery/galeria23.jpg", title: "Realizácia" },
+  { id: 25, src: "/gallery/galeria25.jpg", title: "Realizácia" },
+  { id: 26, src: "/gallery/galeria26.jpg", title: "Realizácia" },
+  { id: 27, src: "/gallery/galeria27.jpg", title: "Realizácia" },
+];
+
+export const NAV_LINKS = [
+  { id: 1, label: "Domov", href: "/" },
+  { id: 2, label: "O nás", href: "#o-nas" },
+  { id: 3, label: "Galéria", href: "#galeria" },
+  { id: 4, label: "Kontakt", href: "#kontakt" },
+];
