@@ -2,6 +2,7 @@ import Link from "next/link";
 import Container from "@/components/layout/Container";
 import { NAV_LINKS } from "@/constants";
 import { Mail, Phone, MapPin } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -9,11 +10,8 @@ export default function Footer() {
       <Container className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
         {/* 1. LOGO  */}
         <section className="space-y-6 flex flex-col gap-2">
-          <Link
-            href="/"
-            className="text-2xl text-gold font-heading italic tracking-wider"
-          >
-            LOGO
+          <Link href="/">
+            <Image width={200} height={100} src="/logo.png" />
           </Link>
           <p className="text-background/80 text-sm leading-relaxed max-w-xs font-body font-light">
             Špecializujeme sa na kvalitné stolárske práce a moderné zasklenia.

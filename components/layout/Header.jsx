@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Container from "@/components/layout/Container";
 import { NAV_LINKS } from "@/constants";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 import SecondaryButton from "./SecondaryButton";
 
@@ -12,14 +13,14 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-blue py-6 shadow-lg">
+    <header className="fixed top-0 w-full z-50 bg-blue py-3 shadow-lg">
       <Container className="flex items-center justify-between">
         {/* LOGO */}
         <Link
           href="/"
           className="text-2xl text-gold font-heading italic tracking-wider z-50"
         >
-          LOGO
+          <Image width={200} height={100} src={"/logo.png"} />
         </Link>
 
         {/* DESKTOP NAV + BUTTON */}
@@ -36,8 +37,8 @@ export default function Header() {
             ))}
           </nav>
 
-          <Link href="#kontakt">
-            <SecondaryButton>Nezáväzný dopyt</SecondaryButton>
+          <Link href="tel:0919194375">
+            <SecondaryButton>Zavolajte nám</SecondaryButton>
           </Link>
         </div>
 
@@ -71,11 +72,11 @@ export default function Header() {
               ))}
 
               <Link
-                href="#kontakt"
+                href="tel:0919194375"
                 onClick={() => setIsOpen(false)}
                 className="mt-4"
               >
-                <SecondaryButton>Nezáväzný dopyt</SecondaryButton>
+                <SecondaryButton>Zavolajte nám</SecondaryButton>
               </Link>
             </motion.div>
           )}

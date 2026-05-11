@@ -29,7 +29,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="py-20">
+    <section id="nase-sluzby" className="py-20">
       <Container className="flex flex-col gap-20">
         <div className="flex items-center justify-center text-center">
           <H2>Komplexné riešenia pre váš domov a záhradu</H2>

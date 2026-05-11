@@ -27,7 +27,8 @@ export const GALLERY_IMAGES = [
 
 export const NAV_LINKS = [
   { id: 1, label: "Domov", href: "/" },
-  { id: 2, label: "O nás", href: "#o-nas" },
+  { id: 2, label: "Naše služby", href: "#nase-sluzby" },
   { id: 3, label: "Galéria", href: "#galeria" },
-  { id: 4, label: "Kontakt", href: "#kontakt" },
+  { id: 4, label: "Ako to prebieha ?", href: "#ako-to-prebieha" },
+  { id: 5, label: "Kontakt", href: "#kontakt" },
 ];

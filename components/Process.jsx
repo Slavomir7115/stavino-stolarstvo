@@ -28,7 +28,7 @@ const steps = [
 
 export default function Process() {
   return (
-    <section className="py-30 ">
+    <section id="ako-to-prebieha" className="py-30 ">
       <Container>
         <div className="text-center mb-20">
           <H2>Ako prebieha spolupráca</H2>

@@ -2,6 +2,7 @@ import Container from "./layout/Container";
 import { Phone, Mail, MapPin } from "lucide-react";
 import H2 from "./layout/H2";
 import Form from "./layout/Form";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -17,38 +18,42 @@ export default function Contact() {
           </p>
 
           <div className="space-y-10">
-            <a href="tel:+421900000000" className="flex items-center group">
+            <Link href="tel:0919194375" className="flex items-center group">
               <Phone size={24} className="text-gold mr-6" />
               <div className="flex flex-col">
                 <span className="text-xs uppercase tracking-widest text-zinc-500">
                   Telefón
                 </span>
                 <span className="text-xl font-light group-hover:text-gold transition-colors">
-                  +421 900 000 000
+                  0919 194 375
                 </span>
               </div>
-            </a>
+            </Link>
 
-            <a href="mailto:info@firma.sk" className="flex items-center group">
+            <Link
+              href="mailto:info@stavino-stolarstvo.sk"
+              className="flex items-center group"
+            >
               <Mail size={24} className="text-gold mr-6" />
               <div className="flex flex-col">
                 <span className="text-xs uppercase tracking-widest text-zinc-500">
                   E-mail
                 </span>
                 <span className="text-xl font-light group-hover:text-gold transition-colors">
-                  info@firma.sk
+                  info@stavino-stolarstvo.sk
                 </span>
               </div>
-            </a>
+            </Link>
 
             <div className="flex items-center">
               <MapPin size={24} className="text-gold mr-6" />
               <div className="flex flex-col">
-                <span className="text-xs uppercase tracking-widest text-zinc-500">
+                <span className="text-xs uppercase tracking-widest text-background/50">
                   Dielňa a adresa
                 </span>
                 <span className="text-xl font-light uppercase">
-                  Hlavná 123, Mesto
+                  Stavino s. r. o.
+                  <br /> Cabov 111, 094 14 Cabov
                 </span>
               </div>
             </div>
