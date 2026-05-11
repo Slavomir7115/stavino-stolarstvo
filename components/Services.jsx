@@ -7,20 +7,20 @@ import { motion } from "framer-motion";
 
 const services = [
   {
-    title: "Interiér na mieru",
+    title: "Výroba nábytku na mieru",
     desc: "Od moderných kuchýň po masívne stoly. Každý kus je originál navrhnutý pre váš priestor.",
     items: ["Kuchynské linky", "Vstavané skrine", "Masívny nábytok"],
     image: "/nabytok.webp",
   },
   {
-    title: "Záhradná architektúra",
+    title: "Drevené altánky a terasy",
     desc: "Štýlové altánky a funkčné prístrešky s dôrazom na dlhú životnosť materiálov.",
     items: ["Moderné altánky", "Drevené terasy", "Prístrešky pre autá"],
     image: "/zahradna.webp",
     featured: true,
   },
   {
-    title: "Zasklenie terás",
+    title: "Hliníkové zasklenie terás a balkónov",
     desc: "Hliníkové systémy, ktoré predĺžia sezónu na vašej terase bez ohľadu na počasie.",
     items: ["Bezrámové systémy", "Rámové zasklenie", "Hliníkové profily"],
     image: "/zasklenie.webp",

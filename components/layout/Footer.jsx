@@ -44,23 +44,23 @@ export default function Footer() {
             Kontaktujte nás
           </h4>
           <div className="space-y-5 text-sm text-background/80 font-normal">
-            <a
-              href="tel:+421900000000"
+            <Link
+              href="tel:0919194375"
               className="flex items-center gap-4 hover:text-gold transition-colors w-fit"
             >
               <Phone size={16} className="text-gold" />
-              <span>+421 900 000 000</span>
-            </a>
-            <a
+              <span>0919 194 375</span>
+            </Link>
+            <Link
               href="mailto:info@stavino-stolarstvo.sk"
               className="flex items-center gap-4 hover:text-gold transition-colors w-fit"
             >
               <Mail size={16} className="text-gold" />
               <span>info@stavino-stolarstvo.sk</span>
-            </a>
+            </Link>
             <div className="flex items-start gap-4">
               <MapPin size={16} className="text-gold mt-1" />
-              <span>Hlavná 123, 000 01 Mesto</span>
+              <span>Stavino s. r. o. Cabov 111, 094 14 Cabov</span>
             </div>
           </div>
         </section>
