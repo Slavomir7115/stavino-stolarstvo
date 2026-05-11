@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="flex flex-col items-start gap-10 md:w-2/3">
           <H1>Stolárstvo Vranov - Nábytok na mieru & zasklenia</H1>
           <Link href="#kontakt">
-            <PrimaryButton>Nezáväzná ponuka</PrimaryButton>
+            <PrimaryButton>Nezáväzná dopyt</PrimaryButton>
           </Link>
         </div>
         <div className="flex flex-col md:flex-row gap-10 md:gap-20 ">

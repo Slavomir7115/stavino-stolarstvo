@@ -13,7 +13,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-blue py-3 shadow-lg">
+    <header className="fixed top-0 w-full z-50 bg-blue py-1 md:py-2 shadow-lg">
       <Container className="flex items-center justify-between">
         {/* LOGO */}
         <Link
