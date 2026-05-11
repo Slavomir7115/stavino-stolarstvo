@@ -18,6 +18,9 @@ export const metadata = {
   title: {
     default: "Stolárstvo Vranov - Nábytok na mieru & zasklenia",
     template: "%s | Stolárstvo Vranov",
+    alternates: {
+      canonical: "https://www.stavino-stolarstvo.sk",
+    },
   },
   description:
     "Hľadáte poctivé stolárstvo vo Vranove a okolí? Vyrábame unikátny nábytok na mieru, moderné kuchyne a hliníkové zasklenia terás. Precízna montáž po celom Slovensku.",
