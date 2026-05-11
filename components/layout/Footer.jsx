@@ -11,7 +11,12 @@ export default function Footer() {
         {/* 1. LOGO  */}
         <section className="space-y-6 flex flex-col gap-2">
           <Link href="/">
-            <Image width={200} height={100} src="/logo.png" />
+            <Image
+              alt="logo stranky stavino-stolarstvo.sk"
+              width={200}
+              height={100}
+              src="/logo.png"
+            />
           </Link>
           <p className="text-background/80 text-sm leading-relaxed max-w-xs font-body font-light">
             Špecializujeme sa na kvalitné stolárske práce a moderné zasklenia.

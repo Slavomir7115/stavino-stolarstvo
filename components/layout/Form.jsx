@@ -71,6 +71,15 @@ const Form = () => {
             placeholder="Popíšte nám vašu predstavu..."
           ></textarea>
         </div>
+        <p className="text-xs  mt-4 leading-relaxed">
+          Odoslaním formulára beriete na vedomie, že spoločnosť Stavino s. r. o.
+          spracúva vaše osobné údaje za účelom vypracovania cenovej ponuky a
+          vybavenia dopytu. Viac informácií nájdete na stránke{" "}
+          <a href="/ochrana-osobnych-udajov" className="text-gold underline">
+            Ochrana osobných údajov
+          </a>
+          .
+        </p>
 
         <div className="pt-4">
           <PrimaryButton className="w-full justify-center">

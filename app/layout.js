@@ -2,6 +2,7 @@ import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import Script from "next/script";
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",
@@ -24,6 +25,14 @@ export default function RootLayout({ children }) {
       lang="sk"
       className={`${playfair.variable} ${inter.variable} h-full antialiased`}
     >
+      <head>
+        <Script
+          strategy="beforeInteractive"
+          id="cookieyes"
+          type="text/javascript"
+          src="https://cdn-cookieyes.com/client_data/cbcf12ab8e60fe8036726685cfdcea3c/script.js"
+        ></Script>
+      </head>
       <body className="min-h-full flex flex-col">
         <Header />
         {children}

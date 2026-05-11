@@ -20,7 +20,12 @@ export default function Header() {
           href="/"
           className="text-2xl text-gold font-heading italic tracking-wider z-50"
         >
-          <Image width={200} height={100} src={"/logo.png"} />
+          <Image
+            width={200}
+            height={100}
+            alt="logo stranky stavino-stolarstvo.sk"
+            src={"/logo.png"}
+          />
         </Link>
 
         {/* DESKTOP NAV + BUTTON */}
