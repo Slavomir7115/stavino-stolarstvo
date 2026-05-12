@@ -57,6 +57,13 @@ const Form = () => {
       <h3 className="text-2xl mb-8 text-gold">Nezáväzný dopyt</h3>
 
       <form onSubmit={handleSubmit} className="space-y-6">
+        <input
+          type="text"
+          name="_gotcha"
+          className="hidden"
+          tabIndex="-1"
+          autoComplete="off"
+        />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="flex flex-col space-y-2">
             <label className="text-xs uppercase tracking-widest text-background">
