@@ -91,7 +91,10 @@ export default function Footer() {
           >
             Ochrana osobných údajov
           </Link>
-          <Link href="/cookies" className="hover:text-gold transition-colors">
+          <Link
+            href="/ochrana-suborov-cookies"
+            className="hover:text-gold transition-colors"
+          >
             Ochrana súborov cookies
           </Link>
         </div>
