@@ -5,6 +5,6 @@ export default function robots() {
       allow: "/",
       disallow: "/admin",
     },
-    sitemap: "https://www.stavino.sk/sitemap.xml",
+    sitemap: "https://www.stavino-stolarstvo.sk/sitemap.xml",
   };
 }
