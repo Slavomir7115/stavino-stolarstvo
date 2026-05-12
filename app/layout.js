@@ -18,17 +18,22 @@ export const metadata = {
   title: {
     default: "Stolárstvo Vranov - Nábytok na mieru & zasklenia",
     template: "%s | Stolárstvo Vranov",
-    alternates: {
-      canonical: "https://www.stavino-stolarstvo.sk",
-    },
+  },
+  alternates: {
+    canonical: "https://www.stavino-stolarstvo.sk",
   },
   description:
     "Hľadáte poctivé stolárstvo vo Vranove a okolí? Vyrábame unikátny nábytok na mieru, moderné kuchyne a hliníkové zasklenia terás. Precízna montáž po celom Slovensku.",
+
+  verification: {
+    google: "KlEVHxDnU0RpMn7pWQtBjzqkXEHwX2iBQYjCwox7LJc",
+  },
+
   openGraph: {
     title: "Stolárstvo Vranov - Nábytok na mieru & zasklenia",
     description:
       "Výnimočný nábytok a hliníkové zasklenia terás od Stavino. Kvalita z Vranova nad Topľou pre celé Slovensko.",
-    url: "https://www.stavino.sk",
+    url: "https://www.stavino-stolarstvo.sk",
     siteName: "Stavino",
     images: [
       {
