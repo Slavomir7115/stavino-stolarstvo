@@ -16,9 +16,9 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row gap-10 md:gap-20 ">
           <div>
             <p className="text-xl leading-relaxed">
-              Hľadáte poctivé stolárstvo vo Vranove nad Topľou? Od moderných
-              kuchýň z masívu až po unikátne interiérové detaily – v Stavino
-              vytvárame nábytok, ktorý spája remeslo s dizajnom.
+              Hľadáte poctivé stolárstvo na východe? Od moderných kuchýň z
+              masívu až po unikátne interiérové detaily – v Stavino vytvárame
+              nábytok, ktorý spája remeslo s dizajnom.
             </p>
           </div>
           <div className="border-l border-gold pl-4 flex  items-start">
@@ -32,7 +32,7 @@ export default function Hero() {
           <Image
             alt="Luxusný nábytok na mieru"
             fill
-            src={"/herobanner.webp"}
+            src={"/herobanner.jpg"}
             priority
             className="object-cover "
           />

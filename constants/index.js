@@ -1,7 +1,7 @@
 export const GALLERY_IMAGES = [
-  { id: 1, src: "/gallery/galeria1.jpg", title: "Realizácia" },
-  { id: 2, src: "/gallery/galeria2.jpg", title: "Realizácia" },
-  { id: 4, src: "/gallery/galeria4.jpg", title: "Realizácia" },
+  { id: 28, src: "/gallery/galeria28.jpg", title: "Realizácia" },
+  { id: 29, src: "/gallery/galeria29.jpg", title: "Realizácia" },
+  { id: 30, src: "/gallery/galeria30.jpg", title: "Realizácia" },
   { id: 5, src: "/gallery/galeria5.jpg", title: "Realizácia" },
   { id: 6, src: "/gallery/galeria6.jpg", title: "Realizácia" },
   { id: 7, src: "/gallery/galeria7.jpg", title: "Realizácia" },
@@ -23,6 +23,10 @@ export const GALLERY_IMAGES = [
   { id: 25, src: "/gallery/galeria25.jpg", title: "Realizácia" },
   { id: 26, src: "/gallery/galeria26.jpg", title: "Realizácia" },
   { id: 27, src: "/gallery/galeria27.jpg", title: "Realizácia" },
+  { id: 1, src: "/gallery/galeria1.jpg", title: "Realizácia" },
+  { id: 2, src: "/gallery/galeria2.jpg", title: "Realizácia" },
+
+  { id: 3, src: "/gallery/galeria4.jpg", title: "Realizácia" },
 ];
 
 export const NAV_LINKS = [
