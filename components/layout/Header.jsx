@@ -25,6 +25,7 @@ export default function Header() {
             height={100}
             alt="logo stranky stavino-stolarstvo.sk"
             src={"/logo.png"}
+            style={{ height: "auto" }}
           />
         </Link>
 

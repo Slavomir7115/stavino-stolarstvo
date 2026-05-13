@@ -17,6 +17,7 @@ const inter = Inter({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://www.stavino-stolarstvo.sk"),
   title: {
     default: "Stolárstvo Vranov - Nábytok na mieru & zasklenia",
     template: "%s | Stolárstvo Vranov",
