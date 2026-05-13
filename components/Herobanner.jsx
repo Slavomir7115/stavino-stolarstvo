@@ -8,9 +8,12 @@ export default function Hero() {
     <section className="pb-20 pt-40 flex items-center justify-center">
       <Container className="flex flex-col gap-15 ">
         <div className="flex flex-col items-start gap-10 md:w-2/3">
-          <H1>Stolárstvo Vranov - Nábytok na mieru & zasklenia</H1>
+          <H1>
+            ZÁKAZKOVÉ STOLÁRSTVO - komplexné interiérové & exteriérové riešenia
+            na mieru
+          </H1>
           <Link href="#kontakt">
-            <PrimaryButton>Nezáväzná dopyt</PrimaryButton>
+            <PrimaryButton>Nezáväzný dopyt</PrimaryButton>
           </Link>
         </div>
         <div className="flex flex-col md:flex-row gap-10 md:gap-20 ">
