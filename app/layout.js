@@ -7,11 +7,13 @@ import Script from "next/script";
 const playfair = Playfair_Display({
   variable: "--font-playfair",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata = {
@@ -62,7 +64,7 @@ export default function RootLayout({ children }) {
     >
       <head>
         <Script
-          strategy="beforeInteractive"
+          strategy="afterInteractive"
           id="cookieyes"
           type="text/javascript"
           src="https://cdn-cookieyes.com/client_data/cbcf12ab8e60fe8036726685cfdcea3c/script.js"
