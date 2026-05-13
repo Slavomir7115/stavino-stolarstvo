@@ -52,6 +52,7 @@ export default function Header() {
         <button
           className="md:hidden text-gold z-50 p-2"
           onClick={() => setIsOpen(!isOpen)}
+          aria-label="otvoriť mobilné menu"
         >
           {isOpen ? <X size={32} /> : <Menu size={32} />}
         </button>
